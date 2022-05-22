@@ -12,7 +12,7 @@
 
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3 text-center">
-          이 페이지는 금주의 위험성을 알리고 <br>적당히 마시기 위한 가이드를 제공합니다
+          이 페이지는 음주의 위험성을 알리고 <br>적당히 마시기 위한 가이드를 제공합니다
         </h1>
 
         <p class="subheading font-weight-regular text-center">
