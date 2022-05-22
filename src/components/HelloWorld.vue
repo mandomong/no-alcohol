@@ -3,7 +3,7 @@
     <v-row class="text-center">
       <v-col cols="12">
         <v-img
-          :src="require('../assets/logo.svg')"
+          :src="require('../assets/alcohol_main.jpeg')"
           class="my-3"
           contain
           height="200"
@@ -12,12 +12,16 @@
 
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">
-          Welcome to Vuetify
+          이 페이지는 금주의 위험성을 알리고 <br>적당히 마시기 위한 가이드를 제공합니다
         </h1>
 
         <p class="subheading font-weight-regular">
-          For help and collaboration with other Vuetify developers,
-          <br>please join our online
+          무엇보다 금주와 절주를 위해서 할 수 있는 가장 현명한 방법은 의사와 상의하는 것입니다.
+          <br>
+          의사는 당신이 음주를 자제하는 것이 좋은지 끊는 것이 좋은지 결정하는 것을 도울 수 있습니다.
+          <br>
+          알코올에 의존적인 사람이거나 다른 의료상의 문제나 정신적인 문제가 있다면 술을 완전히 끊어야 합니다.
+          <br><br>please join our online
           <a
             href="https://community.vuetifyjs.com"
             target="_blank"
