@@ -83,7 +83,7 @@
         <h2 class="headline font-weight-bold mb-3 text-center">
           출처
         </h2>
-
+        <br>
         <v-row justify="center">
           <a
               href="https://gradium.co.kr/cut-back-on-drinking/"
@@ -98,6 +98,14 @@
               class="subheading mx-3"
               target="_blank">
             Harvard Medical School: 11 ways to curb your drinking
+          </a>
+        </v-row>
+        <v-row justify="center">
+          <a
+              href="http://bgnmh.go.kr/checkmehealme/bbs/bbsView.xx?catNo=3&idx=12"
+              class="subheading mx-3"
+              target="_blank">
+            보건복지부 국립부곡병원: 음주폐해
           </a>
         </v-row>
       </v-col>
