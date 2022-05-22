@@ -6,8 +6,17 @@
       dark
     >
       <div class="d-flex align-center">
-        <v-toolbar-title>금주 실천</v-toolbar-title>
+        <v-toolbar-title @click="$router.push('/')">금주 실천</v-toolbar-title>
       </div>
+
+      <v-spacer></v-spacer>
+      <v-btn icon to="/calculator">
+        <v-icon>mdi-glass-mug</v-icon>
+      </v-btn>
+
+      <v-btn icon>
+        <v-icon>mdi-newspaper</v-icon>
+      </v-btn>
 
     </v-app-bar>
 

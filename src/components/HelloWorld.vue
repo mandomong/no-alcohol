@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-row class="text-center">
+    <v-row>
       <v-col cols="12">
         <v-img
           :src="require('../assets/alcohol_main.jpeg')"
@@ -11,11 +11,11 @@
       </v-col>
 
       <v-col class="mb-4">
-        <h1 class="display-2 font-weight-bold mb-3">
+        <h1 class="display-2 font-weight-bold mb-3 text-center">
           이 페이지는 금주의 위험성을 알리고 <br>적당히 마시기 위한 가이드를 제공합니다
         </h1>
 
-        <p class="subheading font-weight-regular">
+        <p class="subheading font-weight-regular text-center">
           무엇보다 금주를 위해서 할 수 있는 가장 현명한 방법은 의사와 상의하는 것입니다.
           <br>
           의사는 당신이 음주를 자제하는 것이 좋은지 끊는 것이 좋은지 결정하는 것을 도울 수 있습니다.
@@ -24,7 +24,7 @@
         </p>
         <v-divider></v-divider>
         <br><br>
-        <h2>
+        <h2 class="red--text">
           알코올을 줄이는 방법 11
         </h2>
         <br>
@@ -78,7 +78,9 @@
           class="mb-5"
           cols="12"
       >
-        <h2 class="headline font-weight-bold mb-3">
+        <v-divider></v-divider>
+        <br>
+        <h2 class="headline font-weight-bold mb-3 text-center">
           출처
         </h2>
 
@@ -108,56 +110,8 @@
     name: 'HelloWorld',
 
     data: () => ({
-      ecosystem: [
-        {
-          text: 'vuetify-loader',
-          href: 'https://github.com/vuetifyjs/vuetify-loader',
-        },
-        {
-          text: 'github',
-          href: 'https://github.com/vuetifyjs/vuetify',
-        },
-        {
-          text: 'awesome-vuetify',
-          href: 'https://github.com/vuetifyjs/awesome-vuetify',
-        },
-      ],
-      importantLinks: [
-        {
-          text: 'Documentation',
-          href: 'https://vuetifyjs.com',
-        },
-        {
-          text: 'Chat',
-          href: 'https://community.vuetifyjs.com',
-        },
-        {
-          text: 'Made with Vuetify',
-          href: 'https://madewithvuejs.com/vuetify',
-        },
-        {
-          text: 'Twitter',
-          href: 'https://twitter.com/vuetifyjs',
-        },
-        {
-          text: 'Articles',
-          href: 'https://medium.com/vuetify',
-        },
-      ],
-      whatsNext: [
-        {
-          text: 'Explore components',
-          href: 'https://vuetifyjs.com/components/api-explorer',
-        },
-        {
-          text: 'Select a layout',
-          href: 'https://vuetifyjs.com/getting-started/pre-made-layouts',
-        },
-        {
-          text: 'Frequently Asked Questions',
-          href: 'https://vuetifyjs.com/getting-started/frequently-asked-questions',
-        },
-      ],
+      sojuCnt : 0,
+
     }),
   }
 </script>
