@@ -1,8 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  devServer: {
-    disableHostCheck: true,
-  },
+  devServer: { allowedHosts: 'all', },
   transpileDependencies: [
     'vuetify'
   ]
