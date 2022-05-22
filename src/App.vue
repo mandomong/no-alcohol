@@ -6,7 +6,7 @@
       dark
     >
       <div class="d-flex align-center">
-        <v-toolbar-title @click="$router.push('/')">금주 실천</v-toolbar-title>
+        <v-toolbar-title @click="$router.push('/')"><strong>금주 실천</strong></v-toolbar-title>
       </div>
 
       <v-spacer></v-spacer>

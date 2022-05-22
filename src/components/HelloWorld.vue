@@ -3,7 +3,7 @@
     <v-row>
       <v-col cols="12">
         <v-img
-          :src="require('../assets/alcohol_main.jpeg')"
+          :src="require('../assets/no-alcohol.jpeg')"
           class="my-3"
           contain
           height="200"
