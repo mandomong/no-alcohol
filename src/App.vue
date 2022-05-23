@@ -37,6 +37,8 @@
 
         <v-card-text class="py-2 white--text text-center">
           2022.05.22 — <strong>No! alcohol by 김혜민</strong>
+          <br>
+          이 페이지는 비영리 목적으로 만들어졌습니다.
         </v-card-text>
       </v-card>
     </v-footer>
