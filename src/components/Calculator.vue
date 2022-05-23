@@ -6,7 +6,7 @@
           cols="12">
         <v-row>
           <v-col cols="3">
-            <v-card>
+            <v-card v-ripple>
               <v-img
                   :src="require('../assets/item_soju.jpeg')"
                   max-height="125"
@@ -20,7 +20,7 @@
             </v-card>
           </v-col>
           <v-col cols="3">
-            <v-card>
+            <v-card v-ripple>
               <v-img
                   :src="require('../assets/item_macju.jpeg')"
                   max-height="125"
@@ -34,7 +34,7 @@
             </v-card>
           </v-col>
           <v-col cols="3">
-            <v-card>
+            <v-card v-ripple>
               <v-img
                   :src="require('../assets/item_somac.jpeg')"
                   max-height="125"
@@ -48,7 +48,7 @@
             </v-card>
           </v-col>
           <v-col cols="3">
-            <v-card>
+            <v-card v-ripple>
               <v-img
                   :src="require('../assets/item_mak.jpeg')"
                   max-height="125"
@@ -62,7 +62,7 @@
             </v-card>
           </v-col>
           <v-col cols="3">
-            <v-card>
+            <v-card v-ripple>
               <v-img
                   :src="require('../assets/item_yangju.jpeg')"
                   max-height="125"
