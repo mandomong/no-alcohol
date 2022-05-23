@@ -14,7 +14,7 @@
         <v-icon>mdi-glass-mug</v-icon>
       </v-btn>
 
-      <v-btn icon>
+      <v-btn icon to="/news">
         <v-icon>mdi-newspaper</v-icon>
       </v-btn>
 

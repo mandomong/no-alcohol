@@ -89,7 +89,7 @@
               href="https://gradium.co.kr/cut-back-on-drinking/"
               class="subheading mx-3"
               target="_blank">
-            알코올 중독에서 벗어나기 – 술을 줄이는 방법 11
+            그라디움 (알코올 중독에서 벗어나기 – 술을 줄이는 방법 11)
           </a>
         </v-row>
         <v-row justify="center">
